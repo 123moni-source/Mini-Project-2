@@ -1,0 +1,14 @@
+#btnback{
+    padding: .4rem 1.5rem;
+    background: transparent;
+    border-radius: 1rem;
+    font-size: 1rem;
+    position: fixed;
+    left: 2rem;
+    top: 2rem;
+    box-shadow: 0 0 10px gray;
+  }
+  
+  #btnback:hover{
+    transform: scale(1.05);
+  }

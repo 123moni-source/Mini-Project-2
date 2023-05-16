@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" 0="">
+    <title>DataFlair Memory game</title>
+    <link rel="stylesheet" href="./design.css">
+    
+    <script src="static/script.js"></script>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        #card{
+            height: 40vh;
+            width: 40vw;
+            background: linear-gradient(to bottom right, rgb(190, 235, 253), rgb(0, 0, 250));
+            border-radius: 1.5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 4rem;
+            font-weight: bold;
+            transition: .5s;
+        }
+        #card:hover{
+            transform: scale(1.05);
+            box-shadow: 0 0 15px gray;
+        }
+ 
+    </style>
+</head>
+<body>
+    <a href="../index.html"><button id="btnback">Back</button></a>
+    <a href="./game.html">
+        <div id="card">
+            Sudoku
+        </div>
+    </a>
+    
+</body>
+</html>

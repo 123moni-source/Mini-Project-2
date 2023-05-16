@@ -1,0 +1,16 @@
+#dnbtn{
+    padding: .8rem 3rem;
+    z-index: 3000;
+    font-size: 1.5rem;
+    position: relative;
+    left: 55%;
+    bottom: 2rem;
+    border-radius: 2rem;
+    box-shadow: 10px 10px 10px gray;
+    transition: .5s;
+}
+
+#dnbtn:hover{
+    transform: scale(1.05);
+    box-shadow: 15px 15px 15px gray;
+}
