@@ -1,0 +1,41 @@
+body{
+    background-image: url(./2964367.jpg);
+     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: xx-large;
+    background-position: center;
+  background-size: cover;
+}
+input[type="text"]{
+    background: none;
+    font-size: xx-large;
+    text-align: center;
+    color: white;
+}
+#time{
+    font-size:150px;
+}
+div{
+    color:white;
+    font-size:xx-large;
+}
+
+#btnback{
+    padding: .4rem 1.5rem;
+    background: transparent;
+    border-radius: 1rem;
+    font-size: 1rem;
+    position: fixed;
+    left: 5rem;
+    top: 2rem;
+    color: white;
+  border: 2px solid white;
+    box-shadow: 0 0 10px gray;
+  }
+  
+  #btnback:hover{
+    transform: scale(1.05);
+  }
